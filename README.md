@@ -148,19 +148,24 @@ The compiler supports **25 unique functions** specifically modeled for the medic
     ```
 
 #### **Building the Project**
-1.  **Generate the Lexer:**
+1. **Open Command Prompt:**
+   Press `Win + R` to open the **Run** dialog.
+   Type `cmd` and press `Enter` (or click **OK**).
+    * **Verification:** A terminal window opens displaying your user profile directory path (e.g., `C:\Users\<YourUsername>>`).
+
+3. **Generate the Lexer:**
     ```bash
     flex lexer.l
     ```
     This produces the `lex.yy.c` file which contains the tokenization logic.
 
-2.  **Compile the Source:**
+4.  **Compile the Source:**
     ```bash
     g++ -std=c++17 compiler.cpp lex.yy.c -o MedShebaCompiler
     ```
     This links the Flex-generated code with the medical logic in `compiler.cpp`.
 
-3.  **Run a Program:**
+5.  **Run a Program:**
     ```bash
     ./MedShebaCompiler
     ```
