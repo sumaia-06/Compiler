@@ -191,8 +191,5 @@ ShebaShesh()
 ---
 
 ### **Contributor Information**
-*   **Student Name:** Sumaia Bintey Ismail
-*   **Student ID:** 0432320005101103
 *   **Institution:** University of Information Technology and Sciences (UITS)
 *   **Submitted To:** Md. Tasnin Tanvir, Dept. of CSE, UITS
-```
