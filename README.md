@@ -41,7 +41,7 @@ The compiler supports **25 unique functions** specifically modeled for the medic
     
     ## 1. Verify `g++` Installation
     
-    ### Step 1: Open Command Prompt
+    ### **Step 1: Open Command Prompt**
     1. Press `Win + R` to open the **Run** dialog.
     2. Type `cmd` and press `Enter` (or click **OK**).
     * **Verification:** A terminal window opens displaying your user profile directory path (e.g., `C:\Users\<YourUsername>>`).
@@ -67,8 +67,7 @@ The compiler supports **25 unique functions** specifically modeled for the medic
     'g++' is not recognized as an internal or external command, operable program or batch file.
     
     ```
-    
-    
+
     This indicates `g++` is either not installed or its `bin` directory is missing from your system's `PATH`. Proceed to [Section 2: Fix `PATH` Environment Variable](https://www.google.com/search?q=%232-fix-path-environment-variable).
     
     ### Step 3: Test Compiler Response
@@ -86,11 +85,9 @@ The compiler supports **25 unique functions** specifically modeled for the medic
     compilation terminated.
     
     ```
-    
     This confirms the executable binary is recognized by Windows and is awaiting source code files to compile.
     
     ---
-    
     ## 2. Fix `PATH` Environment Variable
     
     If Command Prompt does not recognize `g++`, the folder containing `g++.exe` must be added to your Windows environment variables.
@@ -137,13 +134,9 @@ The compiler supports **25 unique functions** specifically modeled for the medic
     g++ --version
     
     ```
-    
-    
-    
     * **Verification:** The terminal now outputs the GCC version details rather than the `'g++' is not recognized` error.
     
     ```
-    
     If you prefer a step-by-step visual demonstration of locating the folder and updating the environment variables dialog, watch this [How to Add MinGW to PATH in Windows](https://www.youtube.com/watch?v=0HD0pqVtsmw) tutorial.
     
     <ElicitationsGroup message="If you run into issues or need alternative methods:">
