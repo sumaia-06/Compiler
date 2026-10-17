@@ -34,14 +34,14 @@ The compiler supports **25 unique functions** specifically modeled for the medic
 #### **Prerequisites**
 1.  **Flex:** Install via `sudo apt-get install flex` (Linux) or download WinFlex for Windows.
 2.  **G++ Compiler:** Ensure your GCC version supports C++17 standards.
-   #### **C++ Compiler (`g++`) Verification & Setup Guide**
+    ### **C++ Compiler (`g++`) Verification & Setup Guide**
     This guide walks through verifying whether the GNU C++ compiler (`g++`) is active in your Windows environment and how to resolve the `'g++' is not recognized` error by configuring your system `PATH`.
     
     ---
     
     ## 1. Verify `g++` Installation
     
-    ### **Step 1: Open Command Prompt**
+    ### Step 1: Open Command Prompt
     1. Press `Win + R` to open the **Run** dialog.
     2. Type `cmd` and press `Enter` (or click **OK**).
     * **Verification:** A terminal window opens displaying your user profile directory path (e.g., `C:\Users\<YourUsername>>`).
